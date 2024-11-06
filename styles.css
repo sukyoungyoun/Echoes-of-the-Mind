@@ -1,0 +1,85 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body & Font */
+  html, body {
+    font-family: 'Work Sans', sans-serif;  /* Clean, modern sans-serif font */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;  /* Lavender background */
+    color: #de8bff;
+    padding: 0 20px;
+    overflow: hidden;  /* Prevent scrolling */
+  }
+  
+  /* Header Section */
+  header {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #afff25;  /* Lavender-Gray for heading */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .instructions {
+    font-size: 1rem;
+    color: #919191;  /* Lighter lavender for instructions */
+    font-style: italic;
+  }
+  
+  /* Art Container */
+  #art-container {
+    width: 100%;
+    height: 70vh;
+    max-width: 1200px;
+    position: relative;
+    background-color: #F6F3FC;  /* Light Lavender */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    overflow: hidden;  /* Prevent art from going outside the container */
+  }
+  
+  /* Footer Section */
+  footer {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    color: #c9aaff;  /* Light Lavender */
+  }
+  
+  footer p {
+    font-size: 1rem;
+    opacity: 0.7;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    .instructions {
+      font-size: 1rem;
+    }
+  
+    footer p {
+      font-size: 0.9rem;
+    }
+  }
+  
